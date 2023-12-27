@@ -1,5 +1,11 @@
+import Fallback from "./components/Fallback";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Fallback />
+    </>
+  );
 }
 
 export default App;
