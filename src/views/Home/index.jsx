@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import MovieList from "./components/MovieList";
-// import { Link } from "react-router-dom";
 import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
 
 const Home = () => {
@@ -30,8 +29,8 @@ const Home = () => {
   };
 
   return (
-    <div className="px-20">
-      <h1>
+    <div className="px-20 py-6 font-sansSerif">
+      <h1 className="text-2xl">
         Welcome to <span className="italic">movieMe</span>
       </h1>
       <MovieList movies={movies} />

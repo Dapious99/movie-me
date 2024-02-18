@@ -21,7 +21,7 @@ const MovieList = ({ movies }) => {
 
       {selectedMovie && (
         <div
-          className="bg-black opacity-50 text-white"
+          className="fixed inset-0 flex items-center justify-center px-16 bg-black text-white bg-opacity-80"
           onClick={handleCloseDetails}
         >
           <div className="">
