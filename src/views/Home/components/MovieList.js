@@ -20,13 +20,13 @@ const MovieList = ({ movies }) => {
       ))}
       {selectedMovie && (
         <div
-          className="fixed inset-0 flex items-center justify-center px-16 bg-black text-white opacity-95 flex-col gap-6"
+          className="fixed inset-0 flex items-center justify-center px-16 bg-black text-blue-700 opacity-95 flex-col gap-6"
           onClick={handleCloseDetails}
         >
           <div className="absolute right-6 top-44">
             <ImCancelCircle
               size={34}
-              className="text-red-700"
+              className="text-blue-700"
               onClick={handleCloseDetails}
             />
           </div>
