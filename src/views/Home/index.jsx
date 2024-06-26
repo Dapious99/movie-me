@@ -30,7 +30,7 @@ const Home = () => {
 
   return (
     <div className="px-20 py-6 font-sansSerif">
-      <h1 className="text-2xl">
+      <h1 className="text-2xl text-center mb-5">
         Welcome to <span className="italic">movieMe</span>
       </h1>
       <MovieList movies={movies} />
